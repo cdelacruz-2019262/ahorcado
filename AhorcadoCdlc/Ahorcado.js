@@ -1,4 +1,5 @@
 const palabra = ["jamon", "pollo"];
+const abcdario = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
 
 function lienzo(){
     
