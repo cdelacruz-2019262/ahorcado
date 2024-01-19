@@ -5,13 +5,13 @@ function lienzo(){
     
     var canvas = document.getElementById('micanvas');
     var contexto = canvas.getContext("2d");
-    contexto.moveTo(50, 150);
-    contexto.lineTo(180, 180);
-    contexto.strokeStyle = "#f00";
+    contexto.moveTo(100, 180);
+    contexto.lineTo(300, 180);
+    contexto.strokeStyle = "green";
     contexto.stroke();
-    contexto.moveTo(90, 190);
-    contexto.lineTo(140, 120);
-    contexto.strokeStyle = "BLACK";
+    contexto.moveTo(150, 180);
+    contexto.lineTo(150, 20);
+    contexto.strokeStyle = "#804000";
     contexto.stroke();
 }
 
